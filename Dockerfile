@@ -1,10 +1,10 @@
 # Dockerfile for Tilavarauspalvelu backend
 
-FROM registry.access.redhat.com/ubi8/python-38 as appbase
+FROM registry.access.redhat.com/rhel8 as appbase
 
 USER root
 
-RUN rm /etc/rhsm-host
+#RUN rm /etc/rhsm-host
 
 ARG LOCAL_REDHAT_USERNAME
 ARG LOCAL_REDHAT_PASSWORD
