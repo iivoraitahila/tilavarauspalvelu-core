@@ -1,6 +1,6 @@
 # Dockerfile for Tilavarauspalvelu backend
 
-FROM registry.access.redhat.com/rhel8 as appbase
+FROM registry.access.redhat.com/rhel8/python-38 as appbase
 
 USER root
 
