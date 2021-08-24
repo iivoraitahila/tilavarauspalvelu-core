@@ -10,8 +10,8 @@ ARG LOCAL_REDHAT_USERNAME
 ARG LOCAL_REDHAT_PASSWORD
 ARG BUILD_MODE
 
-RUN cp /etc/pki/entitlement/* /root
-RUN ls -la /root
+#RUN cp /etc/pki/entitlement/* /root
+#RUN ls -la /root
 
 #RUN if [ "x$BUILD_MODE" = "xlocal" ] ;\
 #    then \
