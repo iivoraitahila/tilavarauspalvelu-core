@@ -20,7 +20,7 @@ RUN ls -la /root
 #        subscription-manager register --username ${REDHAT_USERNAME} --password ${REDHAT_PASSWORD} --auto-attach; \
 #    fi
 
-#RUN subscription-manager repos --enable codeready-builder-for-rhel-8-x86_64-rpms
+RUN subscription-manager repos --enable codeready-builder-for-rhel-8-x86_64-rpms
 RUN yum -y update
 
 RUN rpm -Uvh https://download.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
