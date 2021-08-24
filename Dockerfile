@@ -22,7 +22,7 @@ ARG BUILD_MODE
 
 
 
-RUN rpm -Uvh https://download.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+# RUN rpm -Uvh https://download.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 
 # Copy entitlements
 COPY ./etc-pki-entitlement /etc/pki/entitlement
