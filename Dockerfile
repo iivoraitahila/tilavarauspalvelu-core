@@ -6,7 +6,7 @@ USER root
 
 
 # Copy entitlements
-COPY ./etc-pki-entitlement /etc/pki/entitlement
+#COPY ./etc-pki-entitlement /etc/pki/entitlement
 # Copy subscription manager configurations
 #COPY ./rhsm-conf /etc/rhsm
 #COPY ./rhsm-ca /etc/rhsm/ca
