@@ -1,21 +1,9 @@
-#################################################
-# Exclude all by default
-#################################################
-*
+# Unit test / coverage reports
+.coverage
+coverage.xml
+.pytest_cache/
 
-#################################################
-# Allowed folders
-#################################################
-!parking_permits*
-!project*
-!users*
-!locale*
+.mypy_cache/
 
-#################################################
-# Allowed files
-#################################################
-!docker-entrypoint.sh
-!gunicorn.conf.py
-!manage.py
-!requirements*
-!wait-for-it.sh
+# Celery filesystem queue
+broker/
